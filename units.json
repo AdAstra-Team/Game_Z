@@ -1,0 +1,132 @@
+{
+    "realmName": "test-day1-4",
+    "player": {
+        "gold": 10,
+        "points": 0,
+        "name": "Ad Astra",
+        "zombieKills": 0,
+        "enemyBlockKills": 0,
+        "gameEndedAt": null
+    },
+    "base": [
+        {
+            "id": "0190a7e7-bce9-79b4-8742-c67bff7ac5d5",
+            "x": 68,
+            "y": 203,
+            "health": 100,
+            "attack": 10,
+            "range": 5,
+            "lastAttack": null
+        },
+        {
+            "id": "0190a7e7-bce9-79ae-b4c1-eabbbbcb4242",
+            "x": 67,
+            "y": 203,
+            "health": 100,
+            "attack": 10,
+            "range": 5,
+            "lastAttack": null
+        },
+        {
+            "id": "0190a7e7-bce9-79a6-8196-8228147040f3",
+            "x": 68,
+            "y": 202,
+            "health": 100,
+            "attack": 10,
+            "range": 5,
+            "lastAttack": null
+        },
+        {
+            "id": "0190a7e7-bce9-799e-af71-2c4d9d6ede6a",
+            "x": 67,
+            "y": 202,
+            "health": 300,
+            "attack": 40,
+            "range": 8,
+            "isHead": true,
+            "lastAttack": null
+        }
+    ],
+    "zombies": [
+        {
+            "x": 64,
+            "y": 209,
+            "id": "09c126b1-0308-4a38-9796-ced1ec8cc0de",
+            "type": "chaos_knight",
+            "health": 5,
+            "attack": 1,
+            "speed": 3,
+            "waitTurns": 1,
+            "direction": "left"
+        },
+        {
+            "x": 58,
+            "y": 210,
+            "id": "25d21c6a-b66e-4ad2-99b2-f63715ea3c29",
+            "type": "liner",
+            "health": 5,
+            "attack": 1,
+            "speed": 1,
+            "waitTurns": 1,
+            "direction": "right"
+        },
+        {
+            "x": 58,
+            "y": 202,
+            "id": "6d110d1d-f749-4588-a464-097a1dc023a0",
+            "type": "chaos_knight",
+            "health": 5,
+            "attack": 1,
+            "speed": 3,
+            "waitTurns": 1,
+            "direction": "left"
+        },
+        {
+            "x": 66,
+            "y": 211,
+            "id": "634dc109-cd1a-474c-a17b-51b895f6a016",
+            "type": "bomber",
+            "health": 5,
+            "attack": 1,
+            "speed": 1,
+            "waitTurns": 1,
+            "direction": "down"
+        },
+        {
+            "x": 62,
+            "y": 198,
+            "id": "9e99d9ee-7168-45fe-8cb0-69be5297ea04",
+            "type": "normal",
+            "health": 5,
+            "attack": 1,
+            "speed": 1,
+            "waitTurns": 1,
+            "direction": "left"
+        },
+        {
+            "x": 60,
+            "y": 194,
+            "id": "f643e40a-bd90-41fb-a896-bc315b3baf52",
+            "type": "juggernaut",
+            "health": 5,
+            "attack": 999999,
+            "speed": 1,
+            "waitTurns": 2,
+            "direction": "down"
+        },
+        {
+            "x": 70,
+            "y": 195,
+            "id": "38a832d7-839b-492e-a97e-721c6149f918",
+            "type": "fast",
+            "health": 5,
+            "attack": 1,
+            "speed": 2,
+            "waitTurns": 1,
+            "direction": "up"
+        }
+    ],
+    "enemyBlocks": null,
+    "turnEndsInMs": 1129,
+    "turn": 16
+}
